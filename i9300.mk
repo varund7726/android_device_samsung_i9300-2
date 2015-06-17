@@ -83,11 +83,8 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     com.android.nfc_extras
 
-<<<<<<< HEAD
-$(call inherit-product, vendor/nameless/config/nfc_enhanced.mk)
-=======
 $(call inherit-product, vendor/cm/config/nfc_enhanced.mk)
->>>>>>> parent of 2e38d65... nameless bringup
+
 
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
