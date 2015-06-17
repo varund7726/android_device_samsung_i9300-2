@@ -11,6 +11,9 @@ $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 # Inherit device configuration
 $(call inherit-product, device/samsung/i9300/full_i9300.mk)
 
+ Configure dalvik heap
+$(call inherit-product, frameworks/native/build/phone-xhdpi-1024-dalvik-heap.mk)
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := i9300
 PRODUCT_NAME := cm_i9300
